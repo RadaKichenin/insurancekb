@@ -1,0 +1,88 @@
+version: 3
+domain: insurance
+created_by: Radakichenin
+seed_examples:
+  - context: |
+      This context covers the primary purpose of the Guidelines on Provision of Information on Deposit Insurance.
+    questions_and_answers:
+      - question: What is the primary purpose of the Guidelines on Provision of Information on Deposit Insurance?
+        answer: |
+          The purpose is to ensure that DTMs provide accurate and consistent information, helping customers make
+          informed decisions regarding deposits and their insurance coverage.
+      - question: How do the Guidelines help depositors?
+        answer: |
+          They help depositors understand the insurance status of their deposits, fostering informed financial
+          decision-making.
+      - question: Why is consistent information important for deposit insurance?
+        answer: |
+          Consistency ensures that customers receive the same information about deposit insurance, reducing confusion
+          and enhancing trust.
+
+  - context: |
+      This context details which institutions must follow the guidelines.
+    questions_and_answers:
+      - question: Which institutions are required to follow the Guidelines?
+        answer: |
+          The Guidelines apply to all DTMs, including licensed banks, Islamic banks under the PIDM Act, and certain
+          branches in Labuan.
+      - question: Are foreign bank branches in Malaysia subject to the Guidelines?
+        answer: |
+          Yes, foreign branches in Labuan licensed under the Financial Services Act 2013 or the Islamic Financial Services
+          Act 2013 must follow the Guidelines.
+      - question: Do the Guidelines apply to DTM branches outside Malaysia?
+        answer: |
+          No, the Guidelines do not apply to DTM branches located outside Malaysia.
+
+  - context: |
+      This context explains the disclosure requirements for DTMs about deposit insurance.
+    questions_and_answers:
+      - question: What are the disclosure requirements DTMs must meet under the Guidelines?
+        answer: |
+          DTMs must disclose their PIDM membership, provide deposit insurance information, and clarify whether
+          each deposit offered is protected by PIDM.
+      - question: How must DTMs represent their membership status in advertising?
+        answer: |
+          DTMs must clearly indicate their PIDM membership status and whether deposits are insured in all forms of
+          advertising.
+      - question: Are DTMs required to inform depositors about the insurance status of new products?
+        answer: |
+          Yes, DTMs must disclose if a new deposit product is insured or uninsured, providing clarity for customers.
+
+  - context: |
+      This context provides information about the display requirements for deposit insurance materials.
+    questions_and_answers:
+      - question: What materials related to deposit insurance must be displayed at DTM premises?
+        answer: |
+          DTMs must display PIDM membership representation, the DIS Brochure, and a notice about the list of insured
+          deposits.
+      - question: Where should PIDM membership representations be displayed in a DTM?
+        answer: |
+          Membership representations should be prominently displayed at the main entrances of DTM premises.
+      - question: Are there specific guidelines for displaying deposit insurance information in digital banking channels?
+        answer: |
+          Yes, DTMs are encouraged to display membership representations and insurance information in all digital
+          channels, including websites and mobile apps.
+
+  - context: |
+      This context describes the compliance requirements for DTMs.
+    questions_and_answers:
+      - question: What compliance review process must DTMs undertake annually?
+        answer: |
+          DTMs must conduct an annual review of their compliance with the guidelines, submit reports, and provide
+          action plans for any issues found.
+      - question: How should DTMs handle incidents of non-compliance?
+        answer: |
+          DTMs must document any non-compliance incidents, assess the impact, and submit corrective action plans
+          as part of their compliance review.
+      - question: Who must sign off on the compliance report submitted to PIDM?
+        answer: |
+          The compliance report must be signed by the DTM’s internal or external auditor to ensure accountability.
+
+document_outline: |
+  This document provides a structured overview of guidelines on the provision of information on deposit insurance,
+  detailing requirements for DTMs to ensure transparency in deposit insurance information for customers.
+document:
+  repo: https://github.com/RadaKichenin/insurancekb
+  commit: a0540f1acb7c6b377db688535d5d4b9d000705ea
+  patterns:
+    - "*.md"
